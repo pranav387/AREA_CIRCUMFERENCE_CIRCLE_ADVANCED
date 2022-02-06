@@ -1,7 +1,6 @@
 import programSETTINGS as s
 import os
 import math
-from termcolor import colored
 from time import sleep
 # getting path
 
@@ -27,7 +26,7 @@ print("\nCurrent settings:\n"+settings.read()+"\n")
 settings.close()
     
 if s.RUN_PROGRAM == False:
-    print(colored("FATAL ERROR OCCURRED: Please set RUN_PROGRAM to True otherwise the program cannot run.", 'red'))
+    print(("FATAL ERROR OCCURRED: Please set RUN_PROGRAM to True otherwise the program cannot run.",))
     sleep(5)
     exit()
 elif s.RUN_PROGRAM == True:
@@ -74,10 +73,10 @@ elif s.RUN_PROGRAM == True:
         exit()
     else:
         # Non functional user input data received
-        print(colored("ERROR OCCURRED: Please follow the user input rules. Put r or d before entering the number.", 'red'))
+        print(("ERROR OCCURRED: Please follow the user input rules. Put r or d before entering the number."))
         more_info = input("More info about user input in this program(y/n): ")
         if more_info == 'y':
-            print(colored("""Please type r before entering the number for radius, or d for diameter. Rerun the program to try again.""", 'green'))
+            print(("""Please type r before entering the number for radius, or d for diameter. Rerun the program to try again."""))
         elif more_info == 'n':
             print("Program is being exited.")
             sleep(2.5)
@@ -85,7 +84,7 @@ elif s.RUN_PROGRAM == True:
             pass
         exit()
 else:
-    print("ERROR OCCURRED: Error occurred due to invalid RUN_PROGRAM setting.")
+    print(("ERROR OCCURRED: Error occurred due to invalid RUN_PROGRAM setting."))
     sleep(3.5)
     exit()
 #TO DO: Make Graphical User Interface(GUI) version of this program.
