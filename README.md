@@ -8,4 +8,4 @@ For those of you who are unable to install termcolor, I have also provided an ex
 I am providing contact support for those of you who are unable to install soon.
 
  Download exe file(located in zip folder): 
- Please extract the zip folder to find the exe file: [areaofcircle.zip](https://github.com/pranav387/AREA_CIRCUMFERENCE_CIRCLE_ADVANCED/files/8010051/areaofcircle.zip)
+ Please extract the zip folder to find the exe file:
