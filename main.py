@@ -36,7 +36,7 @@ elif s.RUN_PROGRAM == True:
     print("\nPlease type r before entering the number for radius, or d for diameter.\n")
     # Getting the user inputs necessary to calculate the area, and the circumference of the circle.
     num = input("Enter the radius or diameter of a circle: ")
-    unit = input("Enter unit: ")
+    unit = input("Enter the unit: ")
     # Checking whether the user entered radius or diameter for value.
     if num[0] == 'r':
         # radius input calculation
